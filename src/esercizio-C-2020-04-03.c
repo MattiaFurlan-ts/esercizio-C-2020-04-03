@@ -42,7 +42,7 @@ int main (int argc, char **argv)
 	contact_type *pino = create_contact ("pino rossi", "+393331234567");
 
 	if (pino == NULL)
-    {
+    	{
 		printf ("errore in create_contact!\n");
 		exit (EXIT_FAILURE);
 	}
@@ -50,7 +50,7 @@ int main (int argc, char **argv)
 	contact_type *gino = create_contact ("gino verdi", "+393487654321");
 
 	if (gino == NULL)
-    {
+    	{
 		printf ("errore in create_contact!\n");
 		exit (EXIT_FAILURE);
 	}
